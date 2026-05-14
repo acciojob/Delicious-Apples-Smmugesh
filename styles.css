@@ -1,1 +1,133 @@
+*{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#20d97b;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .container{
+            width:900px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .card{
+            background:#fff;
+            width:700px;
+            border-radius:10px;
+            display:flex;
+            padding:30px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* LEFT SIDE */
+        .product__photo{
+            width:45%;
+        }
+
+        .photo-container{
+            background:#b4e61d;
+            border-radius:10px;
+            padding:20px;
+            position:relative;
+        }
+
+        .photo-main img{
+            width:100%;
+            height:300px;
+            object-fit:cover;
+        }
+
+        .photo-album{
+            margin-top:20px;
+            background:#fff;
+            padding:10px;
+            border-radius:8px;
+        }
+
+        .photo-album ul{
+            display:flex;
+            justify-content:space-between;
+            list-style:none;
+        }
+
+        .photo-album ul li img{
+            width:60px;
+            height:60px;
+            object-fit:cover;
+            border:1px solid #ccc;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        /* RIGHT SIDE */
+        .product__info{
+            width:55%;
+            padding-left:30px;
+        }
+
+        .title h1{
+            font-size:32px;
+            margin-bottom:10px;
+            color:#333;
+        }
+
+        .price{
+            font-size:40px;
+            color:#ff4d4d;
+            margin:20px 0;
+        }
+
+        .variant h3,
+        .description h3{
+            margin-bottom:15px;
+            color:#555;
+        }
+
+        .variant ul{
+            display:flex;
+            list-style:none;
+            gap:10px;
+            margin-bottom:25px;
+        }
+
+        .variant ul li img{
+            width:40px;
+            height:40px;
+            border-radius:50%;
+            border:2px solid #ddd;
+            object-fit:cover;
+            cursor:pointer;
+        }
+
+        .description ul{
+            margin-left:20px;
+            line-height:1.8;
+            color:#444;
+            margin-bottom:30px;
+        }
+
+        .add-cart{
+            background:#ff4d4d;
+            color:white;
+            border:none;
+            padding:15px 30px;
+            font-size:16px;
+            border-radius:8px;
+            cursor:pointer;
+            box-shadow:0 5px 10px rgba(0,0,0,0.2);
+        }
+
+        .add-cart:hover{
+            background:#e63939;
+        }
 /* your code here */
